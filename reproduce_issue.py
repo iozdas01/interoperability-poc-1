@@ -13,7 +13,7 @@ def reproduce():
 
     # Use the parser logic directly or via the class
     # The class requires a data_dir, but we can just use the internal method if we instantiate it
-    parser = DxfParser(base_dir) # base_dir as dummy data_dir
+    parser = DxfParser(base_dir, base_dir) # base_dir as dummy data_dir and output_dir
     
     print(f"Parsing {dxf_file}...")
     metadata = parser._extract_metadata(dxf_file)

@@ -9,11 +9,6 @@ This script takes the parsed data from the master parser and uses LLM to:
 4. Generate unified DXF annotation JSON instructions for each part
 5. Output JSON files with annotation instructions (does not modify original DXF files)
 
-It combines the functionality of llm-script.py and llm-pdf-csv.py by using
-the already-parsed and organized data from the master parser instead of
-re-parsing raw files.
-"""
-
 import json
 import openai
 from pathlib import Path

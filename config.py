@@ -23,6 +23,10 @@ class Config:
     STEP_MIN_FACE_AREA = 10.0
     STEP_NUM_SAMPLE_POINTS = 100000
     STEP_PARALLEL_TOLERANCE = 0.01
+
+    # External Tools
+    # Note: Adjust this path if the environment location differs on your machine
+    POPPLER_PATH = r"C:\Users\Izgin\anaconda3\envs\pyoccenv\Library\bin"
     
     @classmethod
     def get_input_dir(cls, subdirectory: str) -> Path:

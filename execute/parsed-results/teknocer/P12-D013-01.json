@@ -1,0 +1,16 @@
+{
+  "step": {},
+  "qif": {},
+  "pdf": {
+    "content": "23,08\nAKSİ BELİRTİLMEDİKÇE;\n1. ÖLÇÜLER;\n- MİLİMETREDİR.\n- KAPLAMA SONRASIDIR.\n- TOLERANS SINIFI ISO 2768-mH\n2. YÜZEY PÜRÜZLÜLÜĞÜ Ra 3.2\n3. METRİK DİŞLER DIN 376'YA UYACAKTIR.\n4. KESKİN KÖŞE VE ÇAPAK OLMAYACAKTIR.\n80,31\n23,08 108,16 108,16\n492,63\n61,801\nUP 90° R 2 UP 90° R 2\nUP 90° R 2\n2\nR\n°09\nNWOD\n2\nR\n°09\nPU\n2\nR\n°09\nPU\n2\nR\n°09\nNWOD\n25\n211\n234\n15\n2\n211\n1 2 3 4 5 6 7 8\nRevizyonlar\nThickness: 2mm Rev. Sayı Tarih Açıklama İsim İmza\nA\nB B\nC C\nD D\nE E\n25\nTarih İmza\nÇizen S.AKCAY 21.01.2025\nKontrol E.OZDAS\nOnay E.OZDAS Ölçek 1:5\nA4\nF Malzeme: Sayfa 1/1 FFF\nAISI 304 Parça Adı Kurutucu Kolon Ayağı\nP12-D013-01\nAğırlık : 738.98kg. Parça No\n1 2 3\nBU RESMİN BÜTÜN HAKLARI İMTEK İLERİ MALZEMELER VE TEKNOLOJİLER . A.Ş.'ye AİTTİR. TAKLİT EDİLEMEZ,İZİNSİZ ÇOĞALTILAMAZ. RESİM ÜZERİNDEN ÖLÇÜ ALMAYINIZ.",
+    "file_path": "C:\\Users\\izgin.ozdas\\OneDrive - Accenture\\Documents\\Thesis\\interoperability-poc1\\data\\teknocer\\P12-D013-01.PDF"
+  },
+  "dxf_structure": {
+    "file_name": "P12-D013-01.DXF",
+    "specifics": {
+      "$USERR1": "  9\n$USERR1\n 40\n0.0",
+      "$USERI1": "  9\n$USERI1\n 70\n     0"
+    },
+    "comments": []
+  }
+}

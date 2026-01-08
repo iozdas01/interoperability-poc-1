@@ -1,0 +1,8 @@
+pdfplumber
+pandas
+numpy
+openai
+pdf2image
+Pillow
+ezdxf
+# Note: pythonocc-core is best installed via conda: conda install -c conda-forge pythonocc-core

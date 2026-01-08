@@ -1,0 +1,15 @@
+{
+  "step": {},
+  "qif": {},
+  "pdf": {},
+  "dxf_structure": {
+    "file_name": "P12-D013-01_test_annotated.dxf",
+    "specifics": {
+      "$USERR1": "  9\n$USERR1\n  40\n3.5",
+      "$USERI1": "  9\n$USERI1\n  70\n123"
+    },
+    "comments": [
+      "999\nMaterial: Steel, Thickness: 3.5mm, Part ID: 123"
+    ]
+  }
+}

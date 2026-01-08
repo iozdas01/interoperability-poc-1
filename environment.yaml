@@ -1,0 +1,16 @@
+name: interoperability-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - pandas
+  - numpy
+  - pythonocc-core
+  - pip
+  - pip:
+    - pdfplumber
+    - openai
+    - pdf2image
+    - Pillow
+    - ezdxf

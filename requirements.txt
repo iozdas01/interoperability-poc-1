@@ -5,4 +5,6 @@ openai
 pdf2image
 Pillow
 ezdxf
+python-dotenv
+
 # Note: pythonocc-core is best installed via conda: conda install -c conda-forge pythonocc-core

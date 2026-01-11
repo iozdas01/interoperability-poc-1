@@ -1,0 +1,18 @@
+# Environment Variables (Secrets)
+.env
+
+# Python junk
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# IDE junk
+.vscode/
+.idea/
+
+# Data Outputs (Large files)
+execute/
+data/

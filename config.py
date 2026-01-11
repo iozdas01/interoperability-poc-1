@@ -1,4 +1,9 @@
 from pathlib import Path
+import os
+from dotenv import load_dotenv
+
+# Load variables from .env file if it exists
+load_dotenv()
 
 class Config:
     """Central configuration for the DXF Interoperability Project."""
@@ -25,8 +30,11 @@ class Config:
     STEP_PARALLEL_TOLERANCE = 0.01
 
     # External Tools
-    # Note: Adjust this path if the environment location differs on your machine
-    POPPLER_PATH = r"C:\Users\Izgin\anaconda3\envs\pyoccenv\Library\bin"
+    # Read from .env, with your specific machine path as a fallback
+    POPPLER_PATH = os.getenv(
+        "POPPLER_PATH", 
+        r"C:\Users\Izgin\anaconda3\envs\pyoccenv\Library\bin"
+    )
     
     @classmethod
     def get_input_dir(cls, subdirectory: str) -> Path:

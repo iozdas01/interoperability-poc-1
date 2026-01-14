@@ -33,7 +33,7 @@ class Config:
     # Read from .env, with your specific machine path as a fallback
     POPPLER_PATH = os.getenv(
         "POPPLER_PATH", 
-        r"C:\Users\Izgin\anaconda3\envs\pyoccenv\Library\bin"
+        r"C:\Users\izgin.ozdas\poppler\poppler-24.08.0\Library\bin"
     )
     
     @classmethod

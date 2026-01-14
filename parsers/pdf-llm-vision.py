@@ -26,7 +26,7 @@ def extract_material_from_pdf_image(pdf_file, client):
     try:
         # Convert PDF to images (only first page)
         print("  Converting PDF to images...")
-        images = convert_from_path(pdf_file, poppler_path=r'C:\Users\Izgin\anaconda3\envs\pyoccenv\Library\bin')
+        images = convert_from_path(pdf_file, poppler_path=r'C:\Users\izgin.ozdas\anaconda3\envs\pyoccenv\Library\bin')
         print(f"  Converted {len(images)} pages to images")
         
         # Only process the first page

@@ -24,6 +24,7 @@ class PdfParser(BaseParser):
         results = {}
         
         print(f"Found {len(pdf_files)} PDF files to process.")
+        print(f"DEBUG: Using POPPLER_PATH = {Config.POPPLER_PATH}")
 
         for pdf_file in pdf_files:
             part_id = pdf_file.stem
